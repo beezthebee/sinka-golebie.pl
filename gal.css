@@ -1,0 +1,252 @@
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*-----CONTENT-----*/
+section.content
+{
+	width: 100%;
+	margin-top: 4vh;
+	margin-bottom: 7vh;
+	
+	-webkit-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	-moz-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	overflow: hidden;
+}
+
+header.greet
+{
+	text-align: center;
+	font-size: 4rem;
+	color: #ffffff;
+	font-weight: 200;
+	padding: 20px 0; 
+	background-color: #69beea;
+}
+
+.wrapper
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.textholder-gallery
+{
+	position: relative;
+	width: 80%;
+	max-width: 400px;
+	height: auto;
+	background-size: contain;
+	margin: 40px 40px;
+	text-align: center;
+	
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	
+	transition: all ease-in-out 0.3s;
+}
+
+.textholder-edit
+{
+	width: 80%;
+	max-width: 400px;
+	margin: 40px auto;
+	text-align: center;
+	
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	
+	transition: all ease-in-out 0.3s;
+}
+
+.imgOverlay
+{
+	position: absolute;
+	
+	width: 100%;
+	height: 100%;
+	
+	border-radius: 15px;
+	background-color: transparent;
+	opacity: 0.7;
+	z-index: 1;
+	
+	transition: all ease-in-out 0.35s;
+}
+
+.imgOverlay:hover
+{
+	display: block;
+	cursor: pointer;
+	background-color: #69beea;
+}
+
+.title
+{
+	padding: 30px;
+	border-bottom: 4px dotted #aaaaaa;
+	font-weight: 500;
+}
+
+.content
+{
+	width: 90%;
+	margin: 20px auto;
+	
+	font-size: 1.7rem;
+	color: #333333;
+	font-weight: 400;
+	text-align: center;
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.submit
+{
+	font-family: 'Montserrat', sans-serif;
+	background-color: transparent;
+	border: none;
+	
+	font-size: 2rem;
+	text-align: center;
+	width: 90%;
+	
+	padding: 30px 0;
+	margin: 10px auto;
+	border-radius: 15px;
+	border: 3px solid #69befa;
+	-webkit-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	
+	transition: all ease-in-out 0.2s;
+}
+
+.submit:hover
+{
+	background-color: #69befa;
+	color: white;
+	cursor: pointer;
+}
+
+.button
+{
+	font-family: 'Montserrat', sans-serif;
+	width: 200px;
+	padding: 25px 0;
+	margin: 10px 0;
+	
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	
+	border-radius: 12px;
+	border: none;
+	background-color: #58ade9;
+	-webkit-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	-moz-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	transition: margin ease-in-out 0.1s, box-shadow ease-in-out 0.1s, background-color 0.20s ease-in-out;
+}
+
+.button:hover
+{
+	cursor: pointer;
+	box-shadow: none;
+	background-color: #479cd8;
+}
+
+.input
+{
+	border: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f2f2f2;
+	padding: 12px;
+	border-radius: 3px;
+	width: 280px;
+}
+
+.icon
+{
+	transition: all ease-in-out 0.15s;
+}
+
+.icon:hover
+{
+	color: #58ade9;
+	cursor: pointer;
+}
+
+.container
+{
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	margin: 20px 0;
+	
+	font-size: 1.7rem;
+	color: #333333;
+	font-weight: 400;
+	text-align: center;
+	border-radius: 15px;
+	border: 3px solid #69beea;
+	-webkit-box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 24px 0px rgba(135, 137, 138, 1);
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer
+{
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	background-color: #69beea;
+	padding: 2vh 0;
+}
+
+
+
+@media only screen and (min-width: 900px){
+	
+	section.content
+	{
+		width: 80%;
+		margin: 4vh auto 7vh auto;
+	}
+}
+
+
+@media only screen and (min-width: 1260px){
+	header.greet
+	{
+		font-size: 6rem;
+	}
+	
+	header.title
+	{
+		font-size: 4rem;
+	}
+	
+	article.content
+	{
+		font-size: 1.8rem;
+	}
+}

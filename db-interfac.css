@@ -1,0 +1,195 @@
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff;
+	color:# black;
+	margin: 0; 
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+
+/*-----NAVIGATION BAR-----*/
+nav.menu
+{
+	display: flex;
+	justify-content: center;
+	background-color: #69beea;
+}
+
+.navigation
+{
+	width: 100%;
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	justify-content: center;
+	
+	-webkit-box-shadow: 0px 20px 23px -16px rgba(191, 191, 191, 1);
+	-moz-box-shadow: 0px 20px 23px -16px rgba(191, 191, 191, 1);
+	box-shadow: 0px 20px 23px -16px rgba(191, 191, 191, 1);
+}
+
+.linker-option
+{
+	padding: 30px 3vw;
+	width: 33%;
+	
+	font-size: 1.5rem;
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	transition: background-color 0.25s ease-in-out,
+	color 0.25s ease-in-out;
+}
+
+.linker-option:hover
+{
+	cursor: pointer;
+	background-color: #a3d9ff;
+	color: #ffffff;
+}
+
+
+/*-----LOGO-----*/
+.containerlogo
+{
+	display: inline-block;
+	width: 50%;
+	margin: 8px auto 0 auto;
+}
+
+#containerimg
+{
+	float: left;
+	margin-top: 2px;
+}
+
+#containertxt
+{
+	float: left;
+	margin-left: 2px;
+	font-family: 'Lora', serif;
+}
+
+#minilogo1
+{
+	height: 23px;
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#minilogo2
+{
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+
+/*-----CONTENT-----*/
+section.content
+{
+	clear: both;
+	width: 100%;
+	margin-top: 4vh;
+	margin-bottom: 7vh;
+	
+	-webkit-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	-moz-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	overflow: hidden;
+}
+
+header.greet
+{
+	text-align: center;
+	font-size: 4rem;
+	color: #ffffff;
+	font-weight: 200;
+	padding: 20px 0; 
+	background-color: #69beea;
+}
+
+footer
+{
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	background-color: #69beea;
+	padding: 2vh 0;
+}
+
+
+@media only screen and (min-width: 900px){
+	
+	section.content
+	{
+		width: 80%;
+		margin: 4vh auto 7vh auto;
+	}
+	
+	#logotxt1
+	{
+		font-size: 13rem;
+	}
+}
+
+
+@media only screen and (min-width: 1260px){
+	
+	#logotxt1
+	{
+		font-size: 15rem;
+	}
+	
+	.nav-icon
+	{
+		display: none;
+	}
+	
+	.containerlogo
+	{
+		float: left;
+		margin-left: 15px;
+		margin-right: 15px;
+		width: auto;
+	}
+	
+	section.content
+	{
+		width: 70%;
+		margin: 4vh auto 7vh auto;
+	}
+	
+	header.greet
+	{
+		font-size: 6rem;
+	}
+	
+	.image
+	{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1670px){
+
+	#logotxt1
+	{
+		font-size: 20rem;
+	}
+	
+	.image
+	{
+		font-size: 15rem;
+		padding: 60px;
+	}
+}

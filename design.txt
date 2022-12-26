@@ -1,0 +1,64 @@
+- add / delete elements from:
+	- what's new
+	- gallery
+	- results
+	- auctions
+
+safety:
+	- SQL injections
+	- bots making spam accounts
+	- 
+
+- database will contain:
+	- pigeon info:
+		- ID number
+		- sex
+		- breeding / breeder
+		- line
+		- pedigree
+		- photo
+
+	- contests:
+		- name of contest
+		- year of contest
+		- from city
+		- to city
+		- distance
+
+	- results:
+		- pigeon ID
+		- contest name
+		- contest year
+		- result (time)
+		- result (place)
+
+	- users:
+		- name
+		- surname
+		- email address
+		- password
+
+- database functions:
+	- add new pigeon
+	- edit pigeon info
+	- delete pigeon
+	
+	- add new contest
+	- edit contest info
+	- delete contest
+	
+	- add new result
+	- edit result info
+	- delete result
+
+	- pigeon report:
+		- show results from most to least recent
+		- option to sort from least to most recent
+		- option to sort from best to worst
+		- option to sort from worst to best
+		
+		- show mean time from each contest
+		- show mean placement in each contest
+		- show mean placement overall
+		- show mean velocity (mean from each contest distance by time)
+		- show graph based on mean velocity
