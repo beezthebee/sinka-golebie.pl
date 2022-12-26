@@ -1,0 +1,458 @@
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff;
+	color:# black;
+	margin: 0; 
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+  
+/*-----PAGE HEADER-----*/ 
+
+.background-img
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-image: url("img/bg.jpg");
+	background-size: 100% 100%;
+}
+
+.overlay
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+#logotxt1
+{
+	position: relative;
+	width: 100%;
+	padding-top: 10vw;
+	
+	text-align: center;
+	color: white;
+	font-size: 6.5rem;
+	text-transform: uppercase;
+	font-weight: 200;
+	
+	z-index: 5;
+}
+
+#logotxt2
+{
+	position: relative;
+	width: 100%;
+	padding-bottom: 12vw;
+	
+	text-indent: 3vw;
+	color: white;
+	text-align: center;
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 3vw;
+	
+	z-index: 4;
+}
+
+
+/*-----MENU BAR-----*/
+nav.menu
+{
+	color: grey;
+	flex-wrap: wrap;
+}
+
+
+/*-----NAVIGATION-----*/
+button
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+.nav-icon
+{
+	float: left;
+	display: block;
+	width: 80px;
+	padding: 16px 0 0 10px;
+	
+	text-align: center;
+	font-size: 4rem;
+	color: #444444;
+	
+	transition: color 0.2s ease-in-out;
+}
+
+.nav-icon:hover
+{
+	cursor: pointer;
+	color: #7acffb;
+}
+
+.nav-icon-active
+{
+	color: #7acffb;
+}
+
+.navigation
+{
+	display: none;
+	list-style-type: none;
+	margin: 0;
+	background-color: white;
+}
+
+.navigation-active
+{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 100px;
+	padding: 0;
+	z-index: 1;
+	
+	-webkit-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	-moz-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+}
+
+.user-options
+{
+	display: none;
+	list-style-type: none;
+	margin: 0;
+	background-color: white;
+}
+
+.user-options-active
+{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 100px;
+	padding: 0;
+	
+	-webkit-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	-moz-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+}
+
+.linker-current
+{
+	float: left;
+	padding: 30px;
+	
+	background-color: #a3d9ff;
+	
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 1.5rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.linker-option
+{
+	float: left;
+	padding: 30px 40px;
+	
+	font-size: 1.5rem;
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	transition: background-color 0.25s ease-in-out,
+	color 0.25s ease-in-out;
+}
+
+.linker-option:hover
+{
+	cursor: pointer;
+	background-color: #a3d9ff;
+	color: #ffffff;
+}
+
+
+/*-----LOGO-----*/
+.containerlogo
+{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	margin: 8px auto 0 auto;
+}
+
+#containerimg
+{
+	float: left;
+	margin-top: 2px;
+}
+
+#containertxt
+{
+	float: left;
+	margin-left: 2px;
+	font-family: 'Lora', serif;
+}
+
+#minilogo1
+{
+	height: 23px;
+	color: #58ade9;
+	font-size: 3rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#minilogo2
+{
+	color: #58ade9;
+	font-size: 3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+
+/*-----USER ICON-----*/
+.buttons
+{
+	display: none;
+}
+
+.user-icon
+{
+	float: right;
+	width: 80px;
+	text-align: center;
+	font-size: 4rem;
+	padding: 13px 10px 13px 0;
+	color: #444444;
+	transition: color 0.2s ease-in-out;
+}
+
+.user-icon:hover
+{
+	cursor: pointer;
+	color: #7acffb;
+}
+
+.user-icon-active
+{
+	color: #7acffb;
+}
+
+/*-----INTERLUDE-----*/
+.interlude
+{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	max-height: 115px;
+	background-color: #69beea;
+	color: white;
+	font-size: 1.4rem;
+	font-style: italic;
+}
+
+.social
+{
+	margin: 0 auto;
+	width: 370px;
+}
+
+.social-text
+{
+	float: left;
+	width: 280px;
+	padding: 50px 0;
+}
+
+.social-icon
+{
+	float: left;
+	width: 45px;
+	padding: 37px 0;
+	
+	font-size: 3rem;
+	color: white;
+	
+	transition: font-size ease-in-out 0.1s;
+}
+
+.social-icon:hover
+{
+	cursor: pointer;
+	font-size: 3.2rem;
+}
+
+
+/*-----PAGE FOOTER-----*/
+footer
+{
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	background-color: #69beea;
+	padding: 2vh 0;
+}
+
+
+
+/*------FOR MOBILE-------*/
+@media only screen and (min-width: 900px){
+	
+	#logotxt1
+	{
+		font-size: 13rem;
+	}
+}
+
+
+
+/*------FOR TABLET-------*/
+@media only screen and (min-width: 1400px){
+	
+	#logotxt1
+	{
+		font-size: 15rem;
+	}
+	
+	.nav-icon
+	{
+		display: none;
+	}
+	
+	.user-icon-login
+	{
+		float: right;
+		width: 80px;
+		text-align: center;
+		font-size: 4rem;
+		padding: 13px 10px 13px 0;
+		color: #444444;
+		transition: color 0.2s ease-in-out;
+	}
+
+	.user-icon-login:hover
+	{
+		cursor: pointer;
+		color: #7acffb;
+	}
+	
+	.containerlogo
+	{
+		float: left;
+		margin-left: 15px;
+		margin-right: 15px;
+		width: auto;
+	}
+	
+	ul.navigation
+	{
+		display: block;
+	}
+}
+
+
+
+/*------FOR DESKTOP-------*/
+@media only screen and (min-width: 1670px){
+
+	#logotxt1
+	{
+		font-size:20rem;
+	}
+	
+	.user-icon
+	{
+	  display: none;
+	}
+	
+	.buttons
+	{
+		float: right;
+		display: block;
+		margin: 8px 10px 0px 25px;
+	}
+	
+	.log-in
+	{
+		display: block;
+		float: left;
+		
+		padding: 20px 20px;
+		margin-right: 0.8vw;
+		
+		border-radius: 12px;
+		border: 2px solid #58ade9;
+		background-color: white;
+		
+		font-size: 1.6rem;
+		color: grey;
+		font-weight: 500;
+		text-decoration: none;
+		
+		-webkit-box-shadow: 6px 6px 2px -1px rgba(218, 218, 218, 1);
+		-moz-box-shadow: 6px 6px 2px -1px rgba(218, 218, 218, 1);
+		box-shadow: 6px 6px 2px -1px rgba(218, 218, 218, 1);
+		
+		transition: margin-top ease-in-out 0.1s, box-shadow ease-in-out 0.1s;
+	}
+	
+	.register
+	{
+		float: left;
+		display: block;
+		
+		padding: 22px 20px;
+		
+		color: #ffffff;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1.6rem;
+		text-decoration: none;
+		
+		border-radius: 12px;
+		background-color: #58ade9;
+		-webkit-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+		-moz-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+		box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+		
+		transition: margin-top ease-in-out 0.1s, box-shadow ease-in-out 0.1s, background-color 0.20s ease-in-out;
+	}
+	
+	.log-in:hover
+	{
+		margin-top: 2px;
+		cursor: pointer;
+		box-shadow: none;
+	}
+	
+	.register:hover
+	{
+		margin-top: 2px;
+		cursor: pointer;
+		box-shadow: none;
+		background-color: #479cd8;
+	}
+}

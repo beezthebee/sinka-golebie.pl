@@ -1,0 +1,19 @@
+- system logowania:
+	- strona do przekierowania
+	- baza danych z użytkownikami
+- interface dla administratora:
+	- dodawanie postów do aktualności
+	- dodawanie zdjęć do galerii
+	- dodawanie nowych osiągnięć
+	- rozpoczynanie nowych aukcji
+	- 'O mnie' niewidoczne
+	- podstrona z interfacem bazy danych
+- podstrony galerii
+- podstrony aukcji(?)
+- struktura osiągnięć
+- automatyczne i ręczne przesuwanie nawigacji na stronie głównej
+- przekierowywanie z nawigacji na stronie głównej
+- rozwijanie menu
+- rozwijanie profilu użytkownika
+- translacja na php
+- hosting

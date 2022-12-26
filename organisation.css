@@ -1,0 +1,64 @@
+.add-new
+{
+	display: flex;
+	width: 90%;
+	height: auto;
+	
+	margin: 10px auto;
+	
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.delete-sort
+{
+	display: flex;
+	width: 90%;
+	height: auto;
+	
+	margin: 10px auto;
+	
+	justify-content: space-between;
+}
+
+.search
+{
+	display: flex;
+	width: 48%;
+	
+	margin: 10px 0;
+	padding: 20px 0;
+	
+	font-size: 2rem;
+	color: #333;
+	cursor: auto;
+	font-family: 'Montserrat', sans-serif;
+	justify-content: center;
+	text-align: center;
+	
+	background-color: white;
+	border-radius: 15px;
+	border: 3px solid #69befa;
+	-webkit-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	
+	transition: all ease-in-out 0.2s;
+}
+
+.textholder-news
+{
+	display: flex;
+	width: 90%;
+	min-width: 1000px;
+	height: auto;
+	margin: 10px auto;
+	
+	border-radius: 15px;
+	border: 3px solid #69befa;
+	-webkit-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	
+	transition: all ease-in-out 0.2s;
+}

@@ -1,0 +1,179 @@
+
+/*-----CONTENT-----*/
+section.content
+{
+	width: 100%;
+	margin-top: 4vh;
+	margin-bottom: 7vh;
+	
+	-webkit-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	-moz-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	overflow: hidden;
+}
+
+header.greet
+{
+	text-align: center;
+	font-size: 4rem;
+	color: #ffffff;
+	font-weight: 200;
+	padding: 20px 0; 
+	background-color: #69beea;
+}
+
+.wrapper
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+.textholder
+{
+	width: 90%;
+	height: auto;
+	margin: 30px auto 20px auto;
+	
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+}
+
+header.title
+{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+	
+	color: #333333;
+	font-size: 3rem;
+	font-weight: 400;
+	letter-spacing: 0.1rem;
+	
+	border-bottom: 4px dotted #aaaaaa;
+}
+
+article.content
+{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+	
+	font-size: 1.6rem;
+	color: #333333;
+	font-weight: 400;
+	text-align: justify;
+}
+
+a
+{
+	color: #479cd8;
+}
+
+.input
+{
+	border: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f2f2f2;
+	padding: 12px;
+	border-radius: 3px;
+	width: 280px;
+}
+
+.button
+{
+	font-family: 'Montserrat', sans-serif;
+	width: 200px;
+	padding: 25px 0;
+	margin: 10px 0;
+	
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	
+	border-radius: 12px;
+	border: none;
+	background-color: #58ade9;
+	-webkit-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	-moz-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	transition: margin ease-in-out 0.1s, box-shadow ease-in-out 0.1s, background-color 0.20s ease-in-out;
+}
+
+.button:hover
+{
+	cursor: pointer;
+	box-shadow: none;
+	background-color: #479cd8;
+}
+
+.redirect
+{
+	width: 160px;
+	padding: 25px 22px;
+	margin: 50px auto 50px auto;
+	
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	
+	border-radius: 12px;
+	background-color: #58ade9;
+	-webkit-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	-moz-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	transition: margin ease-in-out 0.1s, box-shadow ease-in-out 0.1s, background-color 0.20s ease-in-out;
+}
+
+.redirect:hover
+{
+	margin: 52px auto 48px auto;
+	cursor: pointer;
+	box-shadow: none;
+	background-color: #479cd8;
+}
+
+
+
+@media only screen and (min-width: 900px){
+	
+	section.content
+	{
+		width: 80%;
+		margin: 4vh auto 7vh auto;
+	}
+}
+
+
+@media only screen and (min-width: 1260px){
+	
+	.textholder
+	{
+		width: 80%;
+	}
+	
+	header.greet
+	{
+		font-size: 6rem;
+	}
+	
+	header.title
+	{
+		font-size: 4rem;
+	}
+	
+	article.content
+	{
+		font-size: 2.2rem;
+	}
+}

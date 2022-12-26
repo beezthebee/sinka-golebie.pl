@@ -1,0 +1,273 @@
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+/*-----CONTENT-----*/
+section.content
+{
+	width: 100%;
+	margin-top: 4vh;
+	margin-bottom: 7vh;
+	
+	-webkit-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	-moz-box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	box-shadow: 0px 8px 29px -5px rgba(134, 134, 134, 1);
+	overflow: hidden;
+}
+
+header.greet
+{
+	text-align: center;
+	font-size: 4rem;
+	color: #ffffff;
+	font-weight: 200;
+	padding: 20px 0;
+	background-color: #69beea;
+}
+
+.wrapper
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.textholder
+{
+	width: 80%;
+}
+
+.textholder-news
+{
+	width: 90%;
+	height: auto;
+	margin: 30px auto 20px auto;
+	
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+}
+
+header.title
+{
+	margin: 0 auto;
+	padding: 5vh 0 4vh 0;
+	width: 100%;
+	
+	color: #333333;
+	font-size: 3rem;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	
+	border-bottom: 4px dotted #aaaaaa;
+}
+
+header.title-news
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+	
+	color: #333333;
+	font-size: 3rem;
+	font-weight: 400;
+	letter-spacing: 0.1rem;
+	
+	border-bottom: 4px dotted #aaaaaa;
+}
+
+.title-element
+{
+	width: 20%;
+	min-width: 200px;
+
+	text-align: left;
+}
+
+.edit-delete
+{
+	float: left;
+	padding: 2px 0px;
+	font-size: 1.5rem;
+	
+	transition: all ease-in-out 0.2s;
+}
+
+.edit-delete:hover
+{
+	color: #58ade9;
+	cursor: pointer;
+}
+
+article.content
+{
+	padding-top: 4vh;
+	width: 100%;
+	
+	font-size: 1.7rem;
+	color: #333333;
+	font-weight: 400;
+	text-align: justify;
+}
+
+article.content-news
+{
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	margin: 20px auto;
+	
+	font-size: 1.7rem;
+	color: #333333;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.comment-side
+{
+	width: 15%;
+	text-align: right;
+}
+
+.comment-content
+{
+	width: 85%;
+}
+
+.input
+{
+	border: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f2f2f2;
+	padding: 12px;
+	border-radius: 3px;
+	width: 280px;
+}
+
+.redirect
+{
+	width: 160px;
+	padding: 25px 22px;
+	margin: 40px auto 40px auto;
+	
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	
+	border-radius: 12px;
+	background-color: #58ade9;
+	-webkit-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	-moz-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	transition: margin ease-in-out 0.1s, box-shadow ease-in-out 0.1s, background-color 0.20s ease-in-out;
+}
+
+.redirect:hover
+{
+	margin: 42px auto 38px auto;
+	cursor: pointer;
+	box-shadow: none;
+	background-color: #479cd8;
+}
+
+
+.swipe
+{
+	width: 8%;
+	
+	color: #555555;
+	font-size: 3rem;
+	text-align: center;
+	
+	transition: all ease-in-out 0.1s;
+}
+
+.swipe:hover
+{
+	cursor: pointer;
+	color: #7acffb;
+	font-size: 3.2rem;
+}
+
+
+
+@media only screen and (min-width: 900px){
+	
+	section.content
+	{
+		width: 80%;
+		margin: 4vh auto 7vh auto;
+	}
+}
+
+
+
+@media only screen and (min-width: 1260px){
+	
+	section.content
+	{
+		width: 70%;
+		margin: 4vh auto 7vh auto;
+	}
+	
+	header.greet
+	{
+		font-size: 6rem;
+	}
+	
+	.image
+	{
+		display: block;
+	}
+	
+	.textholder
+	{
+		width: 70%;
+	}
+	
+	header.title
+	{
+		font-size: 4rem;
+	}
+	
+	article.content
+	{
+		font-size: 1.8rem;
+	}
+	
+	.swipe
+	{
+		transition: all ease-in-out 0.2s;
+	}
+	
+	.swipe:hover
+	{
+		background-color: #7acffb;
+		color: white;
+	}
+}
+
+
+
+@media only screen and (min-width: 1670px){
+
+	.image
+	{
+		font-size: 15rem;
+		padding: 60px;
+	}
+}

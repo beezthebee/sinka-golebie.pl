@@ -1,0 +1,101 @@
+.wrapper
+{
+	width: 100%;
+	justify-content: center;
+	
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+.textholder-news
+{
+	display: flex;
+	width: 50%;
+	height: auto;
+	margin: 10px auto;
+	
+	border-radius: 15px;
+	border: 3px solid #69befa;
+	-webkit-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	
+	transition: all ease-in-out 0.2s;
+}
+
+.content-news
+{
+	float: left;
+	width: 15%;
+	min-width: 100px;
+	padding: 20px 0;
+	margin: 0 auto;
+	background-color: transparent;
+	border: none;
+	
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.edit
+{
+	background-color: transparent;
+	border: none;
+	
+	font-size: 1.3rem;
+	font-weight: 500;
+	text-align: center;
+	
+	padding: 20px 0;
+	
+	transition: all ease-in-out 0.2s;
+}
+
+.edit:hover
+{
+	color: #69befa;
+	cursor: pointer;
+}
+
+
+@media only screen and (min-width: 900px){
+	.content-news
+	{
+		font-size: 1.5rem;
+	}
+	
+	.edit
+	{
+		font-size: 1.5rem;
+	}
+}
+
+
+@media only screen and (min-width: 1260px){
+	.content-news
+	{
+		font-size: 1.7rem;
+	}
+	
+	.edit
+	{
+		font-size: 1.7rem;
+	}
+}
+}
+
+@media only screen and (min-width: 1670px){
+	.content-news
+	{
+		font-size: 2rem;
+	}
+	
+	.edit
+	{
+		font-size: 2rem;
+	}
+}
+}

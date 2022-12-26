@@ -1,0 +1,144 @@
+.wrapper
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+.textholder-news
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	margin: 10px auto;
+	
+	border-radius: 15px;
+	border: 3px solid #69befa;
+	-webkit-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	-moz-box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	box-shadow: 0px 8px 32px -10px rgba(135, 137, 138, 1);
+	
+	transition: all ease-in-out 0.2s;
+}
+
+.content-news
+{
+	float: left;
+	width: 50%;
+	padding: 20px 0;
+	margin: 0 auto;
+	background-color: transparent;
+	border: none;
+	
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.input
+{
+	border: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f2f2f2;
+	padding: 12px;
+	border-radius: 3px;
+	width: 280px;
+}
+
+.button
+{
+	font-family: 'Montserrat', sans-serif;
+	width: 200px;
+	padding: 25px 0;
+	margin: 10px 0;
+	
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	
+	border-radius: 12px;
+	border: none;
+	background-color: #58ade9;
+	-webkit-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	-moz-box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	box-shadow: 6px 6px 2px -1px rgba(216, 216, 216, 1);
+	transition: margin ease-in-out 0.1s, box-shadow ease-in-out 0.1s, background-color 0.20s ease-in-out;
+}
+
+.button:hover
+{
+	cursor: pointer;
+	box-shadow: none;
+	background-color: #479cd8;
+}
+
+.edit
+{
+	background-color: transparent;
+	border: none;
+	
+	font-size: 1.3rem;
+	font-weight: 500;
+	text-align: center;
+	
+	padding: 20px 0;
+	
+	transition: all ease-in-out 0.2s;
+}
+
+.edit:hover
+{
+	color: #69befa;
+	cursor: pointer;
+}
+
+
+@media only screen and (min-width: 900px){
+	.content-news
+	{
+		font-size: 1.5rem;
+	}
+	
+	.edit
+	{
+		font-size: 1.5rem;
+	}
+}
+
+
+@media only screen and (min-width: 1260px){
+	.content-news
+	{
+		font-size: 1.7rem;
+	}
+	
+	.edit
+	{
+		font-size: 1.7rem;
+	}
+}
+}
+
+@media only screen and (min-width: 1670px){
+	.content-news
+	{
+		font-size: 2rem;
+	}
+	
+	.edit
+	{
+		font-size: 2rem;
+	}
+}
+}
